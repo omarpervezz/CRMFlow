@@ -8,13 +8,13 @@ Built by **Omar Pervez** — Frontend Engineer specializing in SaaS platforms, C
 
 ---
 
-## Live Demo
+## Demo Video
 
-[View Live Project](https://your-live-demo-url.com)
+Watch a short walkthrough of CRMFlow running locally:
 
-## Repository
+![CRMFlow Demo](./public/screenshots/crmflow-demo.gif)
 
-[View Source Code](https://github.com/your-username/crmflow)
+> Note: CRMFlow is currently a frontend-focused CRM prototype running locally with mock data. It is not deployed publicly at this time.
 
 ---
 
