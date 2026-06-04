@@ -1,101 +1,48 @@
 # CRMFlow
 
-A modern Sales CRM platform built with Next.js, TypeScript, Tailwind CSS, and shadcn/ui.
+A modern sales CRM platform built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **shadcn/ui**.
 
-CRMFlow simulates the type of customer relationship management software used by sales teams, SaaS companies, agencies, and account managers to manage leads, track opportunities, monitor sales activities, and forecast revenue from a centralized platform.
+CRMFlow is a frontend CRM application that simulates how sales teams, SaaS companies, agencies, account managers, and business development teams manage leads, contacts, companies, deals, tasks, activities, and revenue insights from one centralized platform.
 
-Built by Omar Pervez — Frontend Engineer focused on SaaS platforms, CRM systems, ERP applications, internal tools, dashboards, and business software.
+Built by **Omar Pervez** — Frontend Engineer specializing in SaaS platforms, CRM systems, ERP applications, dashboards, internal tools, analytics products, and workflow-driven business software.
+
+---
+
+## Live Demo
+
+[View Live Project](https://your-live-demo-url.com)
+
+## Repository
+
+[View Source Code](https://github.com/your-username/crmflow)
+
+---
 
 ## Overview
 
 As companies grow, spreadsheets and disconnected tools become difficult to manage.
 
-Sales teams need a centralized system to manage prospects, customer relationships, revenue opportunities, follow-up activities, and performance reporting.
+Sales teams need a centralized system to track prospects, manage customer relationships, monitor revenue opportunities, follow up on tasks, record sales activities, and understand pipeline performance.
 
-CRMFlow demonstrates how a modern CRM platform can be designed and implemented using a scalable React and Next.js architecture.
+**CRMFlow** demonstrates how a modern CRM product can be designed and implemented using a scalable, component-driven frontend architecture.
 
-The project focuses on real business workflows commonly found in sales organizations rather than simple CRUD examples.
+Rather than being a simple CRUD demo, this project focuses on real business workflows commonly found in sales organizations, SaaS companies, agencies, and internal business platforms.
 
 ---
 
-## Features
+## Project Highlights
 
-### Dashboard
-
-- KPI overview
-- Pipeline visibility
-- Revenue analytics
-- Recent activities
-- Upcoming tasks
-- Sales performance monitoring
-
-### Lead Management
-
-- Lead tracking
-- Lead qualification workflow
-- Status management
-- Search and filtering
-- Lead detail drawers
-
-### Contact Management
-
-- Contact directory
-- Company relationships
-- Contact details
-- Search and filtering
-- Relationship visibility
-
-### Company Management
-
-- Company profiles
-- Industry classification
-- Revenue visibility
-- Pipeline association
-- Company detail drawers
-
-### Deal Management
-
-- Opportunity tracking
-- Revenue forecasting
-- Sales pipeline monitoring
-- Deal stage management
-- Table view
-- Kanban pipeline board
-- Deal detail drawers
-
-### Task Management
-
-- Sales task tracking
-- Priority management
-- Due date visibility
-- Assignee management
-- Task detail drawers
-
-### Activity Tracking
-
-- Calls
-- Emails
-- Meetings
-- Notes
-- Activity history
-- Activity detail drawers
-
-### Reporting
-
-- Revenue reporting
-- Pipeline analytics
-- Lead conversion metrics
-- Task completion metrics
-- Sales performance insights
-
-### Global Search
-
-Search across:
-
-- Leads
-- Contacts
-- Companies
-- Deals
+- Modern sales CRM interface inspired by real SaaS workflows
+- Dashboard with KPIs, revenue analytics, pipeline visibility, and sales insights
+- Lead, contact, company, deal, task, and activity management
+- Deal pipeline with both table and Kanban-style views
+- Global search across core CRM records
+- Detail drawer patterns for fast record previews
+- Reporting section for revenue, pipeline, lead, and task insights
+- Feature-based architecture for better scalability and maintainability
+- Reusable UI components built with shadcn/ui and Tailwind CSS
+- Type-safe data models using TypeScript
+- Responsive layout for modern web application experiences
 
 ---
 
@@ -132,6 +79,103 @@ Search across:
 ### Reports
 
 ![Reports](./public/screenshots/reports.png)
+
+---
+
+## Core Features
+
+### Dashboard
+
+The dashboard provides a high-level view of CRM performance and sales activity.
+
+- KPI overview
+- Pipeline visibility
+- Revenue analytics
+- Recent activities
+- Upcoming tasks
+- Sales performance monitoring
+
+### Lead Management
+
+Manage prospects through a structured lead workflow.
+
+- Lead tracking
+- Lead qualification workflow
+- Status management
+- Search and filtering
+- Lead detail drawers
+
+### Contact Management
+
+Organize people connected to companies, deals, and sales activity.
+
+- Contact directory
+- Company relationships
+- Contact details
+- Search and filtering
+- Relationship visibility
+
+### Company Management
+
+Track companies, industries, revenue potential, and pipeline relationships.
+
+- Company profiles
+- Industry classification
+- Revenue visibility
+- Pipeline association
+- Company detail drawers
+
+### Deal Management
+
+Monitor sales opportunities across the revenue pipeline.
+
+- Opportunity tracking
+- Revenue forecasting
+- Sales pipeline monitoring
+- Deal stage management
+- Table view
+- Kanban pipeline board
+- Deal detail drawers
+
+### Task Management
+
+Manage sales follow-ups and internal responsibilities.
+
+- Sales task tracking
+- Priority management
+- Due date visibility
+- Assignee management
+- Task detail drawers
+
+### Activity Tracking
+
+Record interactions across the sales process.
+
+- Calls
+- Emails
+- Meetings
+- Notes
+- Activity history
+- Activity detail drawers
+
+### Reporting
+
+Analyze sales performance and pipeline health.
+
+- Revenue reporting
+- Pipeline analytics
+- Lead conversion metrics
+- Task completion metrics
+- Sales performance insights
+
+### Global Search
+
+Search across key CRM entities from one place.
+
+- Leads
+- Contacts
+- Companies
+- Deals
 
 ---
 
@@ -190,35 +234,49 @@ types/
 
 ## Key Features Implemented
 
-- Sales Dashboard
-- CRM Pipeline Management
-- Global Search
-- Deal Pipeline Board
-- Detail Drawers
-- Revenue Reporting
-- KPI Analytics
-- Search & Filtering
-- Activity Tracking
-- Reusable UI Components
-- Feature-Based Architecture
+- Sales dashboard
+- CRM pipeline management
+- Global search
+- Deal pipeline board
+- Detail drawers
+- Revenue reporting
+- KPI analytics
+- Search and filtering
+- Activity tracking
+- Reusable UI components
+- Feature-based architecture
+- Mock CRM data models
+- Responsive business application layout
 
 ---
 
 ## Getting Started
 
-Install dependencies:
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/crmflow.git
+```
+
+### 2. Navigate into the project
+
+```bash
+cd crmflow
+```
+
+### 3. Install dependencies
 
 ```bash
 pnpm install
 ```
 
-Start development server:
+### 4. Start the development server
 
 ```bash
 pnpm dev
 ```
 
-Open:
+### 5. Open the app
 
 ```txt
 http://localhost:3000
@@ -226,30 +284,58 @@ http://localhost:3000
 
 ---
 
+## Current Status
+
+CRMFlow is currently a frontend-focused CRM prototype using mock data.
+
+It does not currently include:
+
+- Authentication
+- Backend APIs
+- Database persistence
+- User roles
+- Real-time collaboration
+
+These features are planned as future improvements.
+
+---
+
 ## Why I Built This
 
-I specialize in SaaS platforms, CRM systems, ERP software, internal tools, dashboards, analytics applications, and workflow-driven business software.
+I specialize in building SaaS platforms, CRM systems, ERP software, dashboards, analytics applications, internal tools, customer portals, and workflow-driven business software.
 
-CRMFlow was created to demonstrate the type of sales software organizations use to manage customer relationships, sales pipelines, business development activities, and revenue forecasting.
+CRMFlow was created to demonstrate how a modern sales CRM can be structured, designed, and implemented as a realistic business application.
 
-The project focuses on practical CRM workflows commonly used by sales teams, SaaS founders, agencies, account managers, and growing businesses.
+The goal of this project is to show practical frontend engineering skills in areas that matter for real software products:
+
+- Translating business workflows into usable interfaces
+- Designing scalable feature-based architecture
+- Building reusable UI systems
+- Working with structured CRM data
+- Creating dashboards, reports, and operational views
+- Developing SaaS-style application experiences
+
+This project reflects the type of frontend work required by SaaS companies, startups, agencies, software consultancies, and growing businesses building internal or customer-facing platforms.
 
 ---
 
 ## Future Improvements
 
-- Dark Mode
-- Command Palette
-- Drag & Drop Pipeline
-- Sales Forecasting
-- Advanced Analytics
+- Dark mode
+- Command palette
+- Drag-and-drop pipeline board
+- Advanced sales forecasting
+- Advanced analytics
 - Authentication
-- Role-Based Permissions
-- Team Management
-- Activity Timelines
-- Real Backend APIs
-- Database Persistence
-- Audit Logs
+- Role-based permissions
+- Team management
+- Activity timelines
+- Real backend APIs
+- Database persistence
+- Audit logs
+- Notifications
+- Import/export functionality
+- CRM automation workflows
 
 ---
 
@@ -259,18 +345,21 @@ The project focuses on practical CRM workflows commonly used by sales teams, Saa
 
 Frontend Engineer specializing in:
 
-- SaaS Platforms
-- CRM Systems
-- ERP Systems
-- Internal Tools
+- SaaS platforms
+- CRM systems
+- ERP systems
+- Internal tools
 - Dashboards
-- Analytics Applications
-- Business Web Applications
+- Analytics applications
+- Customer portals
+- Business web applications
 
 I help SaaS companies, startups, agencies, and software consultancies build CRM systems, dashboards, internal tools, ERP platforms, analytics applications, customer portals, and workflow-driven business software.
 
-### Contact
+---
 
-📧 [omar@omarpervez.com](mailto:omar@omarpervez.com)
+## Contact
 
-If you're building business software and need a reliable frontend partner, feel free to reach out.
+Email: [omar@omarpervez.com](mailto:omar@omarpervez.com)
+
+If you are building business software and need a reliable frontend partner, feel free to reach out.
